@@ -1,0 +1,174 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .hero {
+    display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px; 
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-top: 40px;
+  }
+
+ 
+  
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  .projects {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  .project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .contact {
+    background-color: #333;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact form input, .contact form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact form button {
+    padding: 1rem 2rem;
+    background-color: #99ab9e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .contact form button:hover {
+    background-color: #c88a0e;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 3rem;
+    }
+  
+    .about {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .project-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* رنگ سبز */
+    color: white; /* رنگ متن */
+    text-decoration: none; /* حذف خط زیر متن */
+    border-radius: 8px; /* گوشه‌های گرد */
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.project-link:hover {
+    background-color: #45a049; /* سبز تیره‌تر وقتی موس روی آن است */
+    transform: scale(1.05); /* کمی بزرگ‌تر شدن */
+}
