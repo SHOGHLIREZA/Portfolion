@@ -2,6 +2,8 @@
 
 A personal portfolio website showcasing my projects, skills, and experiences.  
 The goal of this project is to create a clean, modern, and responsive portfolio to highlight my work for potential employers and collaborators.
+👉 [Click here to view the portfolio](https://shoghlireza.github.io/Portfolion/)
+
 
 ---
 
